@@ -5,11 +5,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Drum Kit</title>
-        <link rel="stylesheet" href="drumkit.css" />
+        <link rel="stylesheet" href="style.css" />
         <link rel="icon" href="https://fav.farm/😼"/>
     </head>
 
     <body>
+
+        <div class="clock">
+            <div class="clock-face">
+                <div class="hand hour-hand"></div>
+                <div class="hand minute-hand"></div>
+                <div class="hand second-hand"></div>
+            </div>
+        </div>
 
         <div class="keys">
             <div data-key="KeyA" class="key">
@@ -61,6 +69,6 @@
         <audio data-key="KeyK" src="sounds/tom.wav"></audio>
         <audio data-key="KeyL" src="sounds/tink.wav"></audio>
         
-        <script src="drumkit.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
